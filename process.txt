@@ -1,0 +1,76 @@
+npm init -y
+npm install express
+index.js
+node index
+npm i -D nodemon
+npm install npx nodemon
+
+  "scripts": {
+    //"test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+
+------------------------------------------------
+
+Hyper Text Transfer Protocol --> HTTP
+Communication between web services & clients
+HTTP Requests/Responses
+Loading pages, form sumbit, Ajax calls
+
+Every request is completley independant
+Similar to transactions
+Programming, Local Storage, Cookies, Sessions are used to create enhanced user experiences.
+
+Hyper Text Transfer Protocol Secure
+Data sent is encrypted
+SSL/TLS
+Install certificate on web host
+
+GET --> Retrieves data from the server
+POST --> Submit data to the server
+PUT --> Update data already on the server
+DELETE --> Deltetes data from the server
+
+General :- Request URL, Request Method, Status Code, Remote Address, Referrer Policy
+Response :- Server, Set-Coockie, Content-Type, Content-Length, Date
+Request :- Cookies, Accept-xxx, Content-Type, Content-Length, Authorization, User-Agent, Referrer
+
+method --> Path --> Protocol
+HTTP headers as Name:Value
+
+HTTP Status Codes :--
+1xx: Informational
+Request recieved / processing
+
+2xx Success
+Successfully Recieved, understood and accepted
+
+3xx: Redirect
+Further action must be taken / redirect
+
+4xx: Client Error
+Request does not have what it needs
+
+5xx: Server Error
+Server failed to fulfill an apparent valid request
+
+200 - OK
+201 - Ok created
+301 - Moved to new URL
+304 - Not modified (cached version)
+400 - Bad request
+401 - Unauthorized
+404 - Not found
+500 - Internal server error
+
+HTTP / 2
+Major revision of HTTP
+Under the hood changes
+Respond with more data
+Reduce latency(జాప్యం) by enabling full request and response multiplexing
+Fast, efficient & secure
+
+
+
+
